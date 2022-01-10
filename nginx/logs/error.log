@@ -1,0 +1,879 @@
+2022/01/08 07:45:49 [notice] 1#1: using the "epoll" event method
+2022/01/08 07:45:49 [notice] 1#1: nginx/1.21.5
+2022/01/08 07:45:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 07:45:49 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 07:45:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 07:45:49 [notice] 1#1: start worker processes
+2022/01/08 07:45:49 [notice] 1#1: start worker process 22
+2022/01/08 07:45:49 [notice] 1#1: start worker process 23
+2022/01/08 07:45:49 [notice] 1#1: start worker process 24
+2022/01/08 07:45:49 [notice] 1#1: start worker process 25
+2022/01/08 07:45:49 [notice] 1#1: start worker process 26
+2022/01/08 07:45:49 [notice] 1#1: start worker process 27
+2022/01/08 07:45:49 [notice] 1#1: start worker process 28
+2022/01/08 07:45:49 [notice] 1#1: start worker process 29
+2022/01/08 07:46:14 [error] 22#22: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: php-fpm, request: "GET /public/index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:46:19 [error] 22#22: *4 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: php-fpm, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:46:22 [error] 22#22: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: php-fpm, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:47:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 07:47:03 [notice] 22#22: gracefully shutting down
+2022/01/08 07:47:03 [notice] 22#22: exiting
+2022/01/08 07:47:03 [notice] 24#24: gracefully shutting down
+2022/01/08 07:47:03 [notice] 24#24: exiting
+2022/01/08 07:47:03 [notice] 25#25: gracefully shutting down
+2022/01/08 07:47:03 [notice] 25#25: exiting
+2022/01/08 07:47:03 [notice] 26#26: gracefully shutting down
+2022/01/08 07:47:03 [notice] 28#28: gracefully shutting down
+2022/01/08 07:47:03 [notice] 28#28: exiting
+2022/01/08 07:47:03 [notice] 29#29: gracefully shutting down
+2022/01/08 07:47:03 [notice] 23#23: gracefully shutting down
+2022/01/08 07:47:03 [notice] 23#23: exiting
+2022/01/08 07:47:03 [notice] 27#27: gracefully shutting down
+2022/01/08 07:47:03 [notice] 22#22: exit
+2022/01/08 07:47:03 [notice] 24#24: exit
+2022/01/08 07:47:03 [notice] 25#25: exit
+2022/01/08 07:47:03 [notice] 26#26: exiting
+2022/01/08 07:47:03 [notice] 28#28: exit
+2022/01/08 07:47:03 [notice] 29#29: exiting
+2022/01/08 07:47:03 [notice] 23#23: exit
+2022/01/08 07:47:03 [notice] 27#27: exiting
+2022/01/08 07:47:03 [notice] 26#26: exit
+2022/01/08 07:47:03 [notice] 29#29: exit
+2022/01/08 07:47:03 [notice] 27#27: exit
+2022/01/08 07:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 07:47:03 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 07:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 07:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 07:47:03 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 07:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 07:47:03 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 07:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 07:47:03 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 07:47:03 [notice] 1#1: exit
+2022/01/08 07:47:17 [notice] 1#1: using the "epoll" event method
+2022/01/08 07:47:17 [notice] 1#1: nginx/1.21.5
+2022/01/08 07:47:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 07:47:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 07:47:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 07:47:17 [notice] 1#1: start worker processes
+2022/01/08 07:47:17 [notice] 1#1: start worker process 22
+2022/01/08 07:47:17 [notice] 1#1: start worker process 23
+2022/01/08 07:47:17 [notice] 1#1: start worker process 24
+2022/01/08 07:47:17 [notice] 1#1: start worker process 25
+2022/01/08 07:47:17 [notice] 1#1: start worker process 26
+2022/01/08 07:47:17 [notice] 1#1: start worker process 27
+2022/01/08 07:47:17 [notice] 1#1: start worker process 28
+2022/01/08 07:47:17 [notice] 1#1: start worker process 29
+2022/01/08 07:47:30 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:47:39 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:47:48 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:48:32 [error] 22#22: *8 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:50:18 [error] 22#22: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/a.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:50:24 [error] 22#22: *13 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:51:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 07:51:21 [notice] 22#22: gracefully shutting down
+2022/01/08 07:51:21 [notice] 23#23: gracefully shutting down
+2022/01/08 07:51:21 [notice] 25#25: gracefully shutting down
+2022/01/08 07:51:21 [notice] 24#24: gracefully shutting down
+2022/01/08 07:51:21 [notice] 24#24: exiting
+2022/01/08 07:51:21 [notice] 27#27: gracefully shutting down
+2022/01/08 07:51:21 [notice] 28#28: gracefully shutting down
+2022/01/08 07:51:21 [notice] 29#29: gracefully shutting down
+2022/01/08 07:51:21 [notice] 29#29: exiting
+2022/01/08 07:51:21 [notice] 26#26: gracefully shutting down
+2022/01/08 07:51:21 [notice] 22#22: exiting
+2022/01/08 07:51:21 [notice] 22#22: exit
+2022/01/08 07:51:21 [notice] 23#23: exiting
+2022/01/08 07:51:21 [notice] 25#25: exiting
+2022/01/08 07:51:21 [notice] 24#24: exit
+2022/01/08 07:51:21 [notice] 27#27: exiting
+2022/01/08 07:51:21 [notice] 28#28: exiting
+2022/01/08 07:51:21 [notice] 29#29: exit
+2022/01/08 07:51:21 [notice] 26#26: exiting
+2022/01/08 07:51:21 [notice] 23#23: exit
+2022/01/08 07:51:21 [notice] 25#25: exit
+2022/01/08 07:51:21 [notice] 27#27: exit
+2022/01/08 07:51:21 [notice] 28#28: exit
+2022/01/08 07:51:21 [notice] 26#26: exit
+2022/01/08 07:51:21 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 07:51:21 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 07:51:21 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 07:51:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 07:51:21 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 07:51:21 [notice] 1#1: exit
+2022/01/08 07:51:29 [notice] 1#1: using the "epoll" event method
+2022/01/08 07:51:29 [notice] 1#1: nginx/1.21.5
+2022/01/08 07:51:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 07:51:29 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 07:51:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 07:51:29 [notice] 1#1: start worker processes
+2022/01/08 07:51:29 [notice] 1#1: start worker process 22
+2022/01/08 07:51:29 [notice] 1#1: start worker process 23
+2022/01/08 07:51:29 [notice] 1#1: start worker process 24
+2022/01/08 07:51:29 [notice] 1#1: start worker process 25
+2022/01/08 07:51:29 [notice] 1#1: start worker process 26
+2022/01/08 07:51:29 [notice] 1#1: start worker process 27
+2022/01/08 07:51:29 [notice] 1#1: start worker process 28
+2022/01/08 07:51:29 [notice] 1#1: start worker process 29
+2022/01/08 07:51:38 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:51:43 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:51:59 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:52:02 [error] 22#22: *5 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/08 07:52:08 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php?route=/server/databases HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 07:52:12 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 08:01:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 08:01:00 [notice] 22#22: gracefully shutting down
+2022/01/08 08:01:00 [notice] 23#23: gracefully shutting down
+2022/01/08 08:01:00 [notice] 25#25: gracefully shutting down
+2022/01/08 08:01:00 [notice] 27#27: gracefully shutting down
+2022/01/08 08:01:00 [notice] 26#26: gracefully shutting down
+2022/01/08 08:01:00 [notice] 28#28: gracefully shutting down
+2022/01/08 08:01:00 [notice] 29#29: gracefully shutting down
+2022/01/08 08:01:00 [notice] 24#24: gracefully shutting down
+2022/01/08 08:01:00 [notice] 22#22: exiting
+2022/01/08 08:01:00 [notice] 22#22: exit
+2022/01/08 08:01:00 [notice] 23#23: exiting
+2022/01/08 08:01:00 [notice] 25#25: exiting
+2022/01/08 08:01:00 [notice] 27#27: exiting
+2022/01/08 08:01:00 [notice] 26#26: exiting
+2022/01/08 08:01:00 [notice] 28#28: exiting
+2022/01/08 08:01:00 [notice] 28#28: exit
+2022/01/08 08:01:00 [notice] 29#29: exiting
+2022/01/08 08:01:00 [notice] 24#24: exiting
+2022/01/08 08:01:00 [notice] 24#24: exit
+2022/01/08 08:01:00 [notice] 23#23: exit
+2022/01/08 08:01:00 [notice] 25#25: exit
+2022/01/08 08:01:00 [notice] 27#27: exit
+2022/01/08 08:01:00 [notice] 26#26: exit
+2022/01/08 08:01:00 [notice] 29#29: exit
+2022/01/08 08:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 08:01:00 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 08:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/01/08 08:01:00 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 08:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 08:01:00 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 08:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 08:01:00 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 08:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 08:01:00 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 08:01:00 [notice] 1#1: exit
+2022/01/08 08:01:08 [notice] 1#1: using the "epoll" event method
+2022/01/08 08:01:08 [notice] 1#1: nginx/1.21.5
+2022/01/08 08:01:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 08:01:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 08:01:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 08:01:08 [notice] 1#1: start worker processes
+2022/01/08 08:01:08 [notice] 1#1: start worker process 22
+2022/01/08 08:01:08 [notice] 1#1: start worker process 23
+2022/01/08 08:01:08 [notice] 1#1: start worker process 24
+2022/01/08 08:01:08 [notice] 1#1: start worker process 25
+2022/01/08 08:01:08 [notice] 1#1: start worker process 26
+2022/01/08 08:01:08 [notice] 1#1: start worker process 27
+2022/01/08 08:01:08 [notice] 1#1: start worker process 28
+2022/01/08 08:01:08 [notice] 1#1: start worker process 29
+2022/01/08 08:01:14 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 08:01:19 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 08:01:26 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 08:49:04 [error] 22#22: *31 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:06:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:06:05 [notice] 22#22: gracefully shutting down
+2022/01/08 09:06:05 [notice] 22#22: exiting
+2022/01/08 09:06:05 [notice] 24#24: gracefully shutting down
+2022/01/08 09:06:05 [notice] 23#23: gracefully shutting down
+2022/01/08 09:06:05 [notice] 25#25: gracefully shutting down
+2022/01/08 09:06:05 [notice] 26#26: gracefully shutting down
+2022/01/08 09:06:05 [notice] 26#26: exiting
+2022/01/08 09:06:05 [notice] 28#28: gracefully shutting down
+2022/01/08 09:06:05 [notice] 29#29: gracefully shutting down
+2022/01/08 09:06:05 [notice] 29#29: exiting
+2022/01/08 09:06:05 [notice] 27#27: gracefully shutting down
+2022/01/08 09:06:05 [notice] 22#22: exit
+2022/01/08 09:06:05 [notice] 24#24: exiting
+2022/01/08 09:06:05 [notice] 24#24: exit
+2022/01/08 09:06:05 [notice] 23#23: exiting
+2022/01/08 09:06:05 [notice] 25#25: exiting
+2022/01/08 09:06:05 [notice] 26#26: exit
+2022/01/08 09:06:05 [notice] 28#28: exiting
+2022/01/08 09:06:05 [notice] 29#29: exit
+2022/01/08 09:06:05 [notice] 27#27: exiting
+2022/01/08 09:06:05 [notice] 23#23: exit
+2022/01/08 09:06:05 [notice] 25#25: exit
+2022/01/08 09:06:05 [notice] 28#28: exit
+2022/01/08 09:06:05 [notice] 27#27: exit
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 09:06:05 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 09:06:05 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 09:06:05 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 09:06:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 09:06:05 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:06:05 [notice] 1#1: exit
+2022/01/08 09:06:15 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:06:15 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:06:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:06:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:06:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:06:15 [notice] 1#1: start worker processes
+2022/01/08 09:06:15 [notice] 1#1: start worker process 22
+2022/01/08 09:06:15 [notice] 1#1: start worker process 23
+2022/01/08 09:06:15 [notice] 1#1: start worker process 24
+2022/01/08 09:06:15 [notice] 1#1: start worker process 25
+2022/01/08 09:06:15 [notice] 1#1: start worker process 26
+2022/01/08 09:06:15 [notice] 1#1: start worker process 27
+2022/01/08 09:06:15 [notice] 1#1: start worker process 28
+2022/01/08 09:06:15 [notice] 1#1: start worker process 29
+2022/01/08 09:06:27 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:06:29 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:06:34 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:06:38 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:07:07 [error] 22#22: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:07:17 [error] 22#22: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:07:31 [error] 22#22: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:11:35 [notice] 49#49: signal process started
+2022/01/08 09:11:35 [notice] 1#1: signal 1 (SIGHUP) received from 49, reconfiguring
+2022/01/08 09:11:35 [notice] 1#1: reconfiguring
+2022/01/08 09:11:35 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:11:35 [notice] 1#1: start worker processes
+2022/01/08 09:11:35 [notice] 1#1: start worker process 50
+2022/01/08 09:11:35 [notice] 1#1: start worker process 51
+2022/01/08 09:11:35 [notice] 1#1: start worker process 52
+2022/01/08 09:11:35 [notice] 1#1: start worker process 53
+2022/01/08 09:11:35 [notice] 1#1: start worker process 54
+2022/01/08 09:11:35 [notice] 1#1: start worker process 55
+2022/01/08 09:11:35 [notice] 1#1: start worker process 56
+2022/01/08 09:11:35 [notice] 1#1: start worker process 57
+2022/01/08 09:11:35 [notice] 22#22: gracefully shutting down
+2022/01/08 09:11:35 [notice] 22#22: exiting
+2022/01/08 09:11:35 [notice] 23#23: gracefully shutting down
+2022/01/08 09:11:35 [notice] 24#24: gracefully shutting down
+2022/01/08 09:11:35 [notice] 24#24: exiting
+2022/01/08 09:11:35 [notice] 25#25: gracefully shutting down
+2022/01/08 09:11:35 [notice] 26#26: gracefully shutting down
+2022/01/08 09:11:35 [notice] 26#26: exiting
+2022/01/08 09:11:35 [notice] 27#27: gracefully shutting down
+2022/01/08 09:11:35 [notice] 28#28: gracefully shutting down
+2022/01/08 09:11:35 [notice] 28#28: exiting
+2022/01/08 09:11:35 [notice] 29#29: gracefully shutting down
+2022/01/08 09:11:35 [notice] 22#22: exit
+2022/01/08 09:11:35 [notice] 23#23: exiting
+2022/01/08 09:11:35 [notice] 24#24: exit
+2022/01/08 09:11:35 [notice] 25#25: exiting
+2022/01/08 09:11:35 [notice] 26#26: exit
+2022/01/08 09:11:35 [notice] 27#27: exiting
+2022/01/08 09:11:35 [notice] 28#28: exit
+2022/01/08 09:11:35 [notice] 29#29: exiting
+2022/01/08 09:11:35 [notice] 23#23: exit
+2022/01/08 09:11:35 [notice] 25#25: exit
+2022/01/08 09:11:35 [notice] 27#27: exit
+2022/01/08 09:11:35 [notice] 29#29: exit
+2022/01/08 09:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 09:11:35 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 09:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 09:11:35 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:11:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 09:13:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:13:34 [notice] 50#50: gracefully shutting down
+2022/01/08 09:13:34 [notice] 51#51: gracefully shutting down
+2022/01/08 09:13:34 [notice] 51#51: exiting
+2022/01/08 09:13:34 [notice] 52#52: gracefully shutting down
+2022/01/08 09:13:34 [notice] 52#52: exiting
+2022/01/08 09:13:34 [notice] 53#53: gracefully shutting down
+2022/01/08 09:13:34 [notice] 53#53: exiting
+2022/01/08 09:13:34 [notice] 54#54: gracefully shutting down
+2022/01/08 09:13:34 [notice] 54#54: exiting
+2022/01/08 09:13:34 [notice] 57#57: gracefully shutting down
+2022/01/08 09:13:34 [notice] 57#57: exiting
+2022/01/08 09:13:34 [notice] 55#55: gracefully shutting down
+2022/01/08 09:13:34 [notice] 56#56: gracefully shutting down
+2022/01/08 09:13:34 [notice] 50#50: exiting
+2022/01/08 09:13:34 [notice] 51#51: exit
+2022/01/08 09:13:34 [notice] 52#52: exit
+2022/01/08 09:13:34 [notice] 53#53: exit
+2022/01/08 09:13:34 [notice] 54#54: exit
+2022/01/08 09:13:34 [notice] 57#57: exit
+2022/01/08 09:13:34 [notice] 55#55: exiting
+2022/01/08 09:13:34 [notice] 56#56: exiting
+2022/01/08 09:13:34 [notice] 50#50: exit
+2022/01/08 09:13:34 [notice] 55#55: exit
+2022/01/08 09:13:34 [notice] 56#56: exit
+2022/01/08 09:13:34 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/01/08 09:13:34 [notice] 1#1: worker process 51 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:13:34 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/01/08 09:13:34 [notice] 1#1: worker process 52 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: worker process 53 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:13:34 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2022/01/08 09:13:34 [notice] 1#1: worker process 50 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: worker process 54 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: worker process 56 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: worker process 57 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:13:34 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/01/08 09:13:34 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2022/01/08 09:13:34 [notice] 1#1: worker process 55 exited with code 0
+2022/01/08 09:13:34 [notice] 1#1: exit
+2022/01/08 09:13:46 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:13:46 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:13:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:13:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:13:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:13:46 [notice] 1#1: start worker processes
+2022/01/08 09:13:46 [notice] 1#1: start worker process 23
+2022/01/08 09:13:46 [notice] 1#1: start worker process 24
+2022/01/08 09:13:46 [notice] 1#1: start worker process 25
+2022/01/08 09:13:46 [notice] 1#1: start worker process 26
+2022/01/08 09:13:46 [notice] 1#1: start worker process 27
+2022/01/08 09:13:46 [notice] 1#1: start worker process 28
+2022/01/08 09:13:46 [notice] 1#1: start worker process 29
+2022/01/08 09:13:46 [notice] 1#1: start worker process 30
+2022/01/08 09:13:49 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:13:51 [error] 23#23: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:13:53 [error] 23#23: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:14:00 [error] 23#23: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:14:14 [error] 23#23: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:14:18 [error] 23#23: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:14:23 [error] 23#23: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:25:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:25:56 [notice] 23#23: gracefully shutting down
+2022/01/08 09:25:56 [notice] 23#23: exiting
+2022/01/08 09:25:56 [notice] 24#24: gracefully shutting down
+2022/01/08 09:25:56 [notice] 26#26: gracefully shutting down
+2022/01/08 09:25:56 [notice] 25#25: gracefully shutting down
+2022/01/08 09:25:56 [notice] 28#28: gracefully shutting down
+2022/01/08 09:25:56 [notice] 28#28: exiting
+2022/01/08 09:25:56 [notice] 29#29: gracefully shutting down
+2022/01/08 09:25:56 [notice] 29#29: exiting
+2022/01/08 09:25:56 [notice] 30#30: gracefully shutting down
+2022/01/08 09:25:56 [notice] 27#27: gracefully shutting down
+2022/01/08 09:25:56 [notice] 23#23: exit
+2022/01/08 09:25:56 [notice] 24#24: exiting
+2022/01/08 09:25:56 [notice] 26#26: exiting
+2022/01/08 09:25:56 [notice] 25#25: exiting
+2022/01/08 09:25:56 [notice] 28#28: exit
+2022/01/08 09:25:56 [notice] 29#29: exit
+2022/01/08 09:25:56 [notice] 30#30: exiting
+2022/01/08 09:25:56 [notice] 27#27: exiting
+2022/01/08 09:25:56 [notice] 24#24: exit
+2022/01/08 09:25:56 [notice] 26#26: exit
+2022/01/08 09:25:56 [notice] 25#25: exit
+2022/01/08 09:25:56 [notice] 30#30: exit
+2022/01/08 09:25:56 [notice] 27#27: exit
+2022/01/08 09:25:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 09:25:56 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:25:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 09:25:56 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:25:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 09:25:56 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:25:56 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/01/08 09:25:56 [notice] 1#1: worker process 30 exited with code 0
+2022/01/08 09:25:56 [notice] 1#1: exit
+2022/01/08 09:26:23 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:26:23 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:26:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:26:23 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:26:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:26:23 [notice] 1#1: start worker processes
+2022/01/08 09:26:23 [notice] 1#1: start worker process 22
+2022/01/08 09:26:23 [notice] 1#1: start worker process 23
+2022/01/08 09:26:23 [notice] 1#1: start worker process 24
+2022/01/08 09:26:23 [notice] 1#1: start worker process 25
+2022/01/08 09:26:23 [notice] 1#1: start worker process 26
+2022/01/08 09:26:23 [notice] 1#1: start worker process 27
+2022/01/08 09:26:23 [notice] 1#1: start worker process 28
+2022/01/08 09:26:23 [notice] 1#1: start worker process 29
+2022/01/08 09:26:54 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:26:59 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:27:02 [error] 22#22: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:27:14 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:27:20 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:27:35 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:27:46 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/a.html HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:31:08 [error] 22#22: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php/ HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:31:11 [error] 22#22: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:31:15 [error] 22#22: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:34:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:34:27 [notice] 23#23: gracefully shutting down
+2022/01/08 09:34:27 [notice] 23#23: exiting
+2022/01/08 09:34:27 [notice] 25#25: gracefully shutting down
+2022/01/08 09:34:27 [notice] 25#25: exiting
+2022/01/08 09:34:27 [notice] 22#22: gracefully shutting down
+2022/01/08 09:34:27 [notice] 22#22: exiting
+2022/01/08 09:34:27 [notice] 26#26: gracefully shutting down
+2022/01/08 09:34:27 [notice] 29#29: gracefully shutting down
+2022/01/08 09:34:27 [notice] 29#29: exiting
+2022/01/08 09:34:27 [notice] 24#24: gracefully shutting down
+2022/01/08 09:34:27 [notice] 24#24: exiting
+2022/01/08 09:34:27 [notice] 28#28: gracefully shutting down
+2022/01/08 09:34:27 [notice] 27#27: gracefully shutting down
+2022/01/08 09:34:27 [notice] 23#23: exit
+2022/01/08 09:34:27 [notice] 25#25: exit
+2022/01/08 09:34:27 [notice] 22#22: exit
+2022/01/08 09:34:27 [notice] 26#26: exiting
+2022/01/08 09:34:27 [notice] 29#29: exit
+2022/01/08 09:34:27 [notice] 24#24: exit
+2022/01/08 09:34:27 [notice] 28#28: exiting
+2022/01/08 09:34:27 [notice] 27#27: exiting
+2022/01/08 09:34:27 [notice] 26#26: exit
+2022/01/08 09:34:27 [notice] 28#28: exit
+2022/01/08 09:34:27 [notice] 27#27: exit
+2022/01/08 09:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 09:34:27 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 09:34:27 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 09:34:27 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 09:34:27 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/01/08 09:34:27 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:34:27 [notice] 1#1: exit
+2022/01/08 09:34:46 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:34:46 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:34:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:34:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:34:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:34:46 [notice] 1#1: start worker processes
+2022/01/08 09:34:46 [notice] 1#1: start worker process 22
+2022/01/08 09:34:46 [notice] 1#1: start worker process 23
+2022/01/08 09:34:46 [notice] 1#1: start worker process 24
+2022/01/08 09:34:46 [notice] 1#1: start worker process 25
+2022/01/08 09:34:46 [notice] 1#1: start worker process 26
+2022/01/08 09:34:46 [notice] 1#1: start worker process 27
+2022/01/08 09:34:46 [notice] 1#1: start worker process 28
+2022/01/08 09:34:46 [notice] 1#1: start worker process 29
+2022/01/08 09:34:54 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:35:01 [error] 22#22: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:35:14 [error] 22#22: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:35:23 [error] 22#22: *8 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:35:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:35:34 [notice] 22#22: gracefully shutting down
+2022/01/08 09:35:34 [notice] 23#23: gracefully shutting down
+2022/01/08 09:35:34 [notice] 25#25: gracefully shutting down
+2022/01/08 09:35:34 [notice] 24#24: gracefully shutting down
+2022/01/08 09:35:34 [notice] 24#24: exiting
+2022/01/08 09:35:34 [notice] 26#26: gracefully shutting down
+2022/01/08 09:35:34 [notice] 29#29: gracefully shutting down
+2022/01/08 09:35:34 [notice] 27#27: gracefully shutting down
+2022/01/08 09:35:34 [notice] 27#27: exiting
+2022/01/08 09:35:34 [notice] 28#28: gracefully shutting down
+2022/01/08 09:35:34 [notice] 22#22: exiting
+2022/01/08 09:35:34 [notice] 23#23: exiting
+2022/01/08 09:35:34 [notice] 25#25: exiting
+2022/01/08 09:35:34 [notice] 24#24: exit
+2022/01/08 09:35:34 [notice] 26#26: exiting
+2022/01/08 09:35:34 [notice] 29#29: exiting
+2022/01/08 09:35:34 [notice] 27#27: exit
+2022/01/08 09:35:34 [notice] 28#28: exiting
+2022/01/08 09:35:34 [notice] 22#22: exit
+2022/01/08 09:35:34 [notice] 23#23: exit
+2022/01/08 09:35:34 [notice] 25#25: exit
+2022/01/08 09:35:34 [notice] 26#26: exit
+2022/01/08 09:35:34 [notice] 29#29: exit
+2022/01/08 09:35:34 [notice] 28#28: exit
+2022/01/08 09:35:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/01/08 09:35:34 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:35:34 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 09:35:34 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:35:34 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 09:35:34 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:35:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 09:35:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 09:35:34 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:35:34 [notice] 1#1: exit
+2022/01/08 09:35:40 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:35:40 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:35:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:35:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:35:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:35:40 [notice] 1#1: start worker processes
+2022/01/08 09:35:40 [notice] 1#1: start worker process 22
+2022/01/08 09:35:40 [notice] 1#1: start worker process 23
+2022/01/08 09:35:40 [notice] 1#1: start worker process 24
+2022/01/08 09:35:40 [notice] 1#1: start worker process 25
+2022/01/08 09:35:40 [notice] 1#1: start worker process 26
+2022/01/08 09:35:40 [notice] 1#1: start worker process 27
+2022/01/08 09:35:40 [notice] 1#1: start worker process 28
+2022/01/08 09:35:40 [notice] 1#1: start worker process 29
+2022/01/08 09:36:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:36:10 [notice] 22#22: gracefully shutting down
+2022/01/08 09:36:10 [notice] 22#22: exiting
+2022/01/08 09:36:10 [notice] 23#23: gracefully shutting down
+2022/01/08 09:36:10 [notice] 25#25: gracefully shutting down
+2022/01/08 09:36:10 [notice] 28#28: gracefully shutting down
+2022/01/08 09:36:10 [notice] 26#26: gracefully shutting down
+2022/01/08 09:36:10 [notice] 26#26: exiting
+2022/01/08 09:36:10 [notice] 29#29: gracefully shutting down
+2022/01/08 09:36:10 [notice] 29#29: exiting
+2022/01/08 09:36:10 [notice] 24#24: gracefully shutting down
+2022/01/08 09:36:10 [notice] 27#27: gracefully shutting down
+2022/01/08 09:36:10 [notice] 22#22: exit
+2022/01/08 09:36:10 [notice] 23#23: exiting
+2022/01/08 09:36:10 [notice] 25#25: exiting
+2022/01/08 09:36:10 [notice] 28#28: exiting
+2022/01/08 09:36:10 [notice] 26#26: exit
+2022/01/08 09:36:10 [notice] 29#29: exit
+2022/01/08 09:36:10 [notice] 24#24: exiting
+2022/01/08 09:36:10 [notice] 27#27: exiting
+2022/01/08 09:36:10 [notice] 23#23: exit
+2022/01/08 09:36:10 [notice] 25#25: exit
+2022/01/08 09:36:10 [notice] 28#28: exit
+2022/01/08 09:36:10 [notice] 24#24: exit
+2022/01/08 09:36:10 [notice] 27#27: exit
+2022/01/08 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 09:36:10 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 09:36:10 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 09:36:10 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/01/08 09:36:10 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 09:36:10 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 09:36:10 [notice] 1#1: exit
+2022/01/08 09:36:55 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:36:55 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:36:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:36:55 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:36:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:36:55 [notice] 1#1: start worker processes
+2022/01/08 09:36:55 [notice] 1#1: start worker process 30
+2022/01/08 09:36:55 [notice] 1#1: start worker process 31
+2022/01/08 09:36:55 [notice] 1#1: start worker process 32
+2022/01/08 09:36:55 [notice] 1#1: start worker process 33
+2022/01/08 09:36:55 [notice] 1#1: start worker process 34
+2022/01/08 09:36:55 [notice] 1#1: start worker process 35
+2022/01/08 09:36:55 [notice] 1#1: start worker process 36
+2022/01/08 09:36:55 [notice] 1#1: start worker process 37
+2022/01/08 09:37:07 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:37:12 [error] 30#30: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:37:16 [error] 30#30: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:37:20 [error] 30#30: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:38:01 [error] 30#30: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:38:05 [error] 30#30: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:38:11 [error] 30#30: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:39:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 09:39:54 [notice] 30#30: gracefully shutting down
+2022/01/08 09:39:54 [notice] 32#32: gracefully shutting down
+2022/01/08 09:39:54 [notice] 33#33: gracefully shutting down
+2022/01/08 09:39:54 [notice] 33#33: exiting
+2022/01/08 09:39:54 [notice] 34#34: gracefully shutting down
+2022/01/08 09:39:54 [notice] 34#34: exiting
+2022/01/08 09:39:54 [notice] 34#34: exit
+2022/01/08 09:39:54 [notice] 31#31: gracefully shutting down
+2022/01/08 09:39:54 [notice] 35#35: gracefully shutting down
+2022/01/08 09:39:54 [notice] 36#36: gracefully shutting down
+2022/01/08 09:39:54 [notice] 37#37: gracefully shutting down
+2022/01/08 09:39:54 [notice] 30#30: exiting
+2022/01/08 09:39:54 [notice] 32#32: exiting
+2022/01/08 09:39:54 [notice] 33#33: exit
+2022/01/08 09:39:54 [notice] 31#31: exiting
+2022/01/08 09:39:54 [notice] 35#35: exiting
+2022/01/08 09:39:54 [notice] 36#36: exiting
+2022/01/08 09:39:54 [notice] 37#37: exiting
+2022/01/08 09:39:54 [notice] 30#30: exit
+2022/01/08 09:39:54 [notice] 32#32: exit
+2022/01/08 09:39:54 [notice] 31#31: exit
+2022/01/08 09:39:54 [notice] 35#35: exit
+2022/01/08 09:39:54 [notice] 36#36: exit
+2022/01/08 09:39:54 [notice] 37#37: exit
+2022/01/08 09:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/01/08 09:39:54 [notice] 1#1: worker process 33 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: worker process 34 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/01/08 09:39:54 [notice] 1#1: worker process 35 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: worker process 36 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: worker process 30 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: worker process 37 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 09:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/01/08 09:39:54 [notice] 1#1: worker process 31 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: worker process 32 exited with code 0
+2022/01/08 09:39:54 [notice] 1#1: exit
+2022/01/08 09:40:08 [notice] 1#1: using the "epoll" event method
+2022/01/08 09:40:08 [notice] 1#1: nginx/1.21.5
+2022/01/08 09:40:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 09:40:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 09:40:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 09:40:08 [notice] 1#1: start worker processes
+2022/01/08 09:40:08 [notice] 1#1: start worker process 30
+2022/01/08 09:40:08 [notice] 1#1: start worker process 31
+2022/01/08 09:40:08 [notice] 1#1: start worker process 32
+2022/01/08 09:40:08 [notice] 1#1: start worker process 33
+2022/01/08 09:40:08 [notice] 1#1: start worker process 34
+2022/01/08 09:40:08 [notice] 1#1: start worker process 35
+2022/01/08 09:40:08 [notice] 1#1: start worker process 36
+2022/01/08 09:40:08 [notice] 1#1: start worker process 37
+2022/01/08 09:40:14 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /public/index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:40:19 [error] 30#30: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:40:34 [error] 30#30: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 09:40:36 [error] 30#30: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.10.0.1, server: localhost, request: "GET /aa.php HTTP/1.1", upstream: "fastcgi://10.10.0.2:9000", host: "localhost"
+2022/01/08 10:59:37 [notice] 1#1: using the "epoll" event method
+2022/01/08 10:59:37 [notice] 1#1: nginx/1.21.5
+2022/01/08 10:59:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 10:59:37 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 10:59:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 10:59:37 [notice] 1#1: start worker processes
+2022/01/08 10:59:37 [notice] 1#1: start worker process 23
+2022/01/08 10:59:37 [notice] 1#1: start worker process 24
+2022/01/08 10:59:37 [notice] 1#1: start worker process 25
+2022/01/08 10:59:37 [notice] 1#1: start worker process 26
+2022/01/08 10:59:37 [notice] 1#1: start worker process 27
+2022/01/08 10:59:37 [notice] 1#1: start worker process 28
+2022/01/08 10:59:37 [notice] 1#1: start worker process 29
+2022/01/08 10:59:37 [notice] 1#1: start worker process 30
+2022/01/08 11:04:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 11:04:47 [notice] 23#23: gracefully shutting down
+2022/01/08 11:04:47 [notice] 24#24: gracefully shutting down
+2022/01/08 11:04:47 [notice] 27#27: gracefully shutting down
+2022/01/08 11:04:47 [notice] 28#28: gracefully shutting down
+2022/01/08 11:04:47 [notice] 29#29: gracefully shutting down
+2022/01/08 11:04:47 [notice] 29#29: exiting
+2022/01/08 11:04:47 [notice] 30#30: gracefully shutting down
+2022/01/08 11:04:47 [notice] 25#25: gracefully shutting down
+2022/01/08 11:04:47 [notice] 26#26: gracefully shutting down
+2022/01/08 11:04:47 [notice] 23#23: exiting
+2022/01/08 11:04:47 [notice] 24#24: exiting
+2022/01/08 11:04:47 [notice] 27#27: exiting
+2022/01/08 11:04:47 [notice] 28#28: exiting
+2022/01/08 11:04:47 [notice] 29#29: exit
+2022/01/08 11:04:47 [notice] 30#30: exiting
+2022/01/08 11:04:47 [notice] 25#25: exiting
+2022/01/08 11:04:47 [notice] 26#26: exiting
+2022/01/08 11:04:47 [notice] 23#23: exit
+2022/01/08 11:04:47 [notice] 24#24: exit
+2022/01/08 11:04:47 [notice] 27#27: exit
+2022/01/08 11:04:47 [notice] 28#28: exit
+2022/01/08 11:04:47 [notice] 30#30: exit
+2022/01/08 11:04:47 [notice] 25#25: exit
+2022/01/08 11:04:47 [notice] 26#26: exit
+2022/01/08 11:04:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 11:04:47 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:04:47 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 11:04:47 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:04:47 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/01/08 11:04:47 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:04:47 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/01/08 11:04:47 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:04:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 11:04:47 [notice] 1#1: worker process 30 exited with code 0
+2022/01/08 11:04:47 [notice] 1#1: exit
+2022/01/08 11:08:46 [emerg] 1#1: host not found in upstream "mydocker-php-fpm" in /etc/nginx/conf.d/site.conf:16
+2022/01/08 11:10:18 [emerg] 1#1: host not found in upstream "mydocker-php-fpm" in /etc/nginx/conf.d/site.conf:16
+2022/01/08 11:11:00 [emerg] 1#1: host not found in upstream "mydocker-php-fpm" in /etc/nginx/conf.d/site.conf:16
+2022/01/08 11:11:57 [notice] 1#1: using the "epoll" event method
+2022/01/08 11:11:57 [notice] 1#1: nginx/1.21.5
+2022/01/08 11:11:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 11:11:57 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 11:11:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 11:11:57 [notice] 1#1: start worker processes
+2022/01/08 11:11:57 [notice] 1#1: start worker process 22
+2022/01/08 11:11:57 [notice] 1#1: start worker process 23
+2022/01/08 11:11:57 [notice] 1#1: start worker process 24
+2022/01/08 11:11:57 [notice] 1#1: start worker process 25
+2022/01/08 11:11:57 [notice] 1#1: start worker process 26
+2022/01/08 11:11:57 [notice] 1#1: start worker process 27
+2022/01/08 11:11:57 [notice] 1#1: start worker process 28
+2022/01/08 11:11:57 [notice] 1#1: start worker process 29
+2022/01/08 11:24:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 11:24:48 [notice] 22#22: gracefully shutting down
+2022/01/08 11:24:48 [notice] 22#22: exiting
+2022/01/08 11:24:48 [notice] 23#23: gracefully shutting down
+2022/01/08 11:24:48 [notice] 24#24: gracefully shutting down
+2022/01/08 11:24:48 [notice] 26#26: gracefully shutting down
+2022/01/08 11:24:48 [notice] 26#26: exiting
+2022/01/08 11:24:48 [notice] 25#25: gracefully shutting down
+2022/01/08 11:24:48 [notice] 25#25: exiting
+2022/01/08 11:24:48 [notice] 27#27: gracefully shutting down
+2022/01/08 11:24:48 [notice] 28#28: gracefully shutting down
+2022/01/08 11:24:48 [notice] 29#29: gracefully shutting down
+2022/01/08 11:24:48 [notice] 22#22: exit
+2022/01/08 11:24:48 [notice] 23#23: exiting
+2022/01/08 11:24:48 [notice] 24#24: exiting
+2022/01/08 11:24:48 [notice] 26#26: exit
+2022/01/08 11:24:48 [notice] 25#25: exit
+2022/01/08 11:24:48 [notice] 27#27: exiting
+2022/01/08 11:24:48 [notice] 28#28: exiting
+2022/01/08 11:24:48 [notice] 29#29: exiting
+2022/01/08 11:24:48 [notice] 23#23: exit
+2022/01/08 11:24:48 [notice] 24#24: exit
+2022/01/08 11:24:48 [notice] 27#27: exit
+2022/01/08 11:24:48 [notice] 28#28: exit
+2022/01/08 11:24:48 [notice] 29#29: exit
+2022/01/08 11:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 11:24:48 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 11:24:48 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 11:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 11:24:48 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 11:24:48 [notice] 1#1: exit
+2022/01/08 11:41:02 [notice] 1#1: using the "epoll" event method
+2022/01/08 11:41:02 [notice] 1#1: nginx/1.21.5
+2022/01/08 11:41:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 11:41:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 11:41:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 11:41:02 [notice] 1#1: start worker processes
+2022/01/08 11:41:02 [notice] 1#1: start worker process 22
+2022/01/08 11:41:02 [notice] 1#1: start worker process 23
+2022/01/08 11:41:02 [notice] 1#1: start worker process 24
+2022/01/08 11:41:02 [notice] 1#1: start worker process 25
+2022/01/08 11:41:02 [notice] 1#1: start worker process 26
+2022/01/08 11:41:02 [notice] 1#1: start worker process 27
+2022/01/08 11:41:02 [notice] 1#1: start worker process 28
+2022/01/08 11:41:02 [notice] 1#1: start worker process 29
+2022/01/08 11:56:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/08 11:56:29 [notice] 22#22: gracefully shutting down
+2022/01/08 11:56:29 [notice] 24#24: gracefully shutting down
+2022/01/08 11:56:29 [notice] 25#25: gracefully shutting down
+2022/01/08 11:56:29 [notice] 23#23: gracefully shutting down
+2022/01/08 11:56:29 [notice] 26#26: gracefully shutting down
+2022/01/08 11:56:29 [notice] 28#28: gracefully shutting down
+2022/01/08 11:56:29 [notice] 28#28: exiting
+2022/01/08 11:56:29 [notice] 27#27: gracefully shutting down
+2022/01/08 11:56:29 [notice] 27#27: exiting
+2022/01/08 11:56:29 [notice] 29#29: gracefully shutting down
+2022/01/08 11:56:29 [notice] 22#22: exiting
+2022/01/08 11:56:29 [notice] 24#24: exiting
+2022/01/08 11:56:29 [notice] 25#25: exiting
+2022/01/08 11:56:29 [notice] 23#23: exiting
+2022/01/08 11:56:29 [notice] 26#26: exiting
+2022/01/08 11:56:29 [notice] 28#28: exit
+2022/01/08 11:56:29 [notice] 27#27: exit
+2022/01/08 11:56:29 [notice] 29#29: exiting
+2022/01/08 11:56:29 [notice] 22#22: exit
+2022/01/08 11:56:29 [notice] 24#24: exit
+2022/01/08 11:56:29 [notice] 25#25: exit
+2022/01/08 11:56:29 [notice] 23#23: exit
+2022/01/08 11:56:29 [notice] 26#26: exit
+2022/01/08 11:56:29 [notice] 29#29: exit
+2022/01/08 11:56:29 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/01/08 11:56:29 [notice] 1#1: worker process 27 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: worker process 28 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:56:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/01/08 11:56:29 [notice] 1#1: worker process 25 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:56:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/01/08 11:56:29 [notice] 1#1: worker process 22 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: worker process 24 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:56:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/01/08 11:56:29 [notice] 1#1: worker process 23 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/08 11:56:29 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/01/08 11:56:29 [notice] 1#1: worker process 26 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: worker process 29 exited with code 0
+2022/01/08 11:56:29 [notice] 1#1: exit
+2022/01/08 11:58:38 [notice] 1#1: using the "epoll" event method
+2022/01/08 11:58:38 [notice] 1#1: nginx/1.21.5
+2022/01/08 11:58:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/08 11:58:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/08 11:58:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/08 11:58:38 [notice] 1#1: start worker processes
+2022/01/08 11:58:38 [notice] 1#1: start worker process 22
+2022/01/08 11:58:38 [notice] 1#1: start worker process 23
+2022/01/08 11:58:38 [notice] 1#1: start worker process 24
+2022/01/08 11:58:38 [notice] 1#1: start worker process 25
+2022/01/08 11:58:38 [notice] 1#1: start worker process 26
+2022/01/08 11:58:38 [notice] 1#1: start worker process 27
+2022/01/08 11:58:38 [notice] 1#1: start worker process 28
+2022/01/08 11:58:38 [notice] 1#1: start worker process 29
+2022/01/08 15:24:23 [notice] 29#29: signal 15 (SIGTERM) received, exiting
+2022/01/10 07:25:35 [notice] 1#1: using the "epoll" event method
+2022/01/10 07:25:35 [notice] 1#1: nginx/1.21.5
+2022/01/10 07:25:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/01/10 07:25:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/01/10 07:25:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/10 07:25:35 [notice] 1#1: start worker processes
+2022/01/10 07:25:35 [notice] 1#1: start worker process 22
+2022/01/10 07:25:35 [notice] 1#1: start worker process 23
+2022/01/10 07:25:35 [notice] 1#1: start worker process 24
+2022/01/10 07:25:35 [notice] 1#1: start worker process 25
+2022/01/10 07:25:35 [notice] 1#1: start worker process 26
+2022/01/10 07:25:35 [notice] 1#1: start worker process 27
+2022/01/10 07:25:35 [notice] 1#1: start worker process 28
+2022/01/10 07:25:35 [notice] 1#1: start worker process 29
